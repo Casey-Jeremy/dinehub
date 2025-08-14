@@ -1,50 +1,122 @@
-# Welcome to your Expo app 👋
+<div align="center">
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+<img src="https://elements-resized.envatousercontent.com/elements-cover-images/69e939dd-6abe-4a8f-b51b-1e4d2303a816?w=1370&cf_fit=scale-down&q=85&format=auto&s=d2cda5240361b99c3aee21779a3e9453d17ceda419f136b01d15355c9e874049" />
 
-## Get started
+# 🍔 Dine Hub
 
-1. Install dependencies
+### Your next favorite meal is just a tap away!
 
-   ```bash
-   npm install
-   ```
+Savor the best of Kampala's culinary scene with a seamless, modern, and delightful food ordering experience.
 
-2. Start the app
+</div>
 
-   ```bash
-   npx expo start
-   ```
+<p align="center">
+  <img src="https://img.shields.io/badge/status-in%20development-yellow" alt="Status" />
+  <img src="https://img.shields.io/badge/version-1.0.0-blue" alt="Version" />
+  <img src="https://img.shields.io/badge/license-MIT-green" alt="License" />
+  <img src="https://img.shields.io/badge/built%20with-React%20Native-61DAFB" alt="React Native" />
+</p>
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## ✨ Features
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+A quick look at the features packed into Dine Hub:
 
-## Get a fresh project
+* ✅ **Dynamic Home Screen:** A beautifully designed entry point to the app.
+* ✅ **Personalized Header:** Welcomes the user by name.
+* ✅ **Instant Search:** A prominent search bar to find dishes and restaurants quickly.
+* ✅ **Interactive Category Filters:** Sleek, pill-shaped filters to browse food categories.
+* ✅ **Modern Restaurant Listings:** Clean, vertical cards showcasing restaurants with key info like ratings, delivery fee, and time.
+* ✅ **Client Testimonials:** A horizontal carousel for social proof and happy client reviews.
+* ✅ **Built for Both Platforms:** A single codebase for both iOS and Android.
 
-When you're ready, run:
+---
 
-```bash
-npm run reset-project
-```
+## 🛠️ Tech Stack
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+This project is built using modern technologies to ensure a robust and scalable application.
 
-## Learn more
+* ⚛️ **React Native:** A framework for building native apps using React.
+* 🔧 **TypeScript:** For strong typing and improved developer experience.
+* 🧭 **React Navigation:** For smooth and intuitive screen transitions.
+* 🚀 **Expo:** To streamline the development and build process.
 
-To learn more about developing your project with Expo, look at the following resources:
+---
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## 🚀 Getting Started
 
-## Join the community
+Ready to run the app on your own device? Follow these simple steps.
 
-Join our community of developers creating universal apps.
+### Prerequisites
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+* Node.js (LTS version recommended)
+* Expo Go app on your iOS or Android device
+
+### Installation
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/Casey-Jeremy/dinehub.git](https://github.com/Casey-Jeremy/dinehub.git)
+    cd dine-hub
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
+
+3.  **Start the development server:**
+    ```bash
+    npx expo start
+    ```
+
+4.  **Launch the app:**
+    * Scan the QR code with the **Expo Go** app on your phone.
+    * Or, press `w` in the terminal to launch it in your web browser.
+
+---
+
+## 📂 Project Structure
+
+The code is organized to be clean, modular, and easy to navigate.
+
+dine-hub/
+├── src/
+│   ├── components/       # Reusable components (Header, ReviewItem, etc.)
+│   ├── constants/        # Theme, colors, fonts, and static data
+│   ├── navigation/       # Navigation stack and BottomTabBar
+│   └── screens/          # Main screens of the app
+│       └── Home.tsx      # The Home screen we built!
+├── assets/               # Images, icons, and fonts
+├── App.tsx               # The root component of the app
+└── README.md             # You are here!
+
+
+---
+
+## 🤝 Contributing
+
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. Don't forget to give the project a star! Thanks again!
+
+1.  Fork the Project
+2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4.  Push to the Branch (`git push origin feature/AmazingFeature`)
+5.  Open a Pull Request
+
+---
+
+## 📜 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+<div align="center">
+
+Made with ❤️ 
+
+</div>
